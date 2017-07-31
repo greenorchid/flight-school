@@ -12,3 +12,8 @@ jobs:
     trigger: true
   - task: tests
     file: flight-school/build.yml
+  - put: flight-school
+    params: 
+      repository: flight-school
+      only_tag: true
+      tag: ./flight-school/ci/some-tag-file
