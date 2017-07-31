@@ -3,6 +3,7 @@ resources:
   type: git
   source:
     uri: https://github.com/greenorchid/flight-school
+    private_key: {{github-private-key}}
     branch: master
 
 jobs:
