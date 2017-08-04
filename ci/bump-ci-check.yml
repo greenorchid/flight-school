@@ -12,4 +12,4 @@ outputs:
   - name: updated-repo
 
 run:
-  path: resource-tutorial/ci/bump-ci-check.sh
+  path: flight-school/ci/bump-ci-check.sh
