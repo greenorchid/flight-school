@@ -13,9 +13,11 @@ jobs:
     trigger: true
   - task: tests
     file: flight-school/build.yml
+  - task: bump-ci-check
+    file: flight-school/ci/bump-ci-check.yml
   - put: flight-school
     params: 
-      repository: flight-school
+      repository: updated-repo
       #only_tag: true
       #tag: ./flight-school/ci/some-tag-file
       notes: ./flight-school/ci/git-notes
