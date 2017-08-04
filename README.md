@@ -1,6 +1,6 @@
 # flight-school
 learn to fly
-# commit with CI in progress
+# commit with CI in progress 2
 #
 ## Reporting Issues and Requesting Features
 
