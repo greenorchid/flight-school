@@ -1,3 +1,4 @@
+#!/bin/sh
 git clone flight-school updated-repo
 
 cd updated-repo
